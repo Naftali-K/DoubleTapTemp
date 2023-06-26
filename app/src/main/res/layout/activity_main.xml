@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/double_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_green_light"
+        android:text="Double Tap"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/one_and_double_tap_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_blue_light"
+        android:text="One and Double Tap"/>
+
+    <TextView
+        android:id="@+id/right_left_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_light"
+        android:hint="Right/Left"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/right_left_fling_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_red_light"
+        android:text="Fling Right/Left"/>
+
+    <TextView
+        android:id="@+id/up_down_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/holo_purple"
+        android:hint="Up/Down"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/up_down_fling_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_purple"
+        android:text="Fling Up/Down"/>
+
+</LinearLayout>
